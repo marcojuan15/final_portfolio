@@ -1,0 +1,211 @@
+.Resume-screen{
+    background-color: #9fcdbd;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 0 200px;
+}
+.resume-top{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Anton;
+    font-size: 40px;
+    color: #152A38;
+    text-shadow: 2px 2px 1px #D1D4C9;
+    letter-spacing: 3px;
+}
+.resume-mid{
+    flex: 5;
+}
+.resume-bot{
+    flex: 5;
+}
+.resume-mid, .resume-bot{
+    display: flex;
+    flex-direction: column;
+}
+.resume-mid .title, .resume-bot .title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: Lilita One;
+    font-size: 25px;
+    color: #152A38;
+}
+.resume-mid .list, .resume-bot .list{
+    flex: 4;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.resume-mid .title img, .resume-bot .title img{
+    height: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.list .date, .list .title-list, .list .company {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.list .date{
+    display: flex;
+    flex-direction: row;
+}
+.date img{
+    width: 190px;
+}
+.date p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -138px;
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    color: #EEEEEE;
+}
+.list .description{
+    flex: 4;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 23px;
+    margin-left: 60px;
+    text-indent: 20px;
+    background-color: #D1D4C9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.list .title-list, .list .company{
+    padding-left: 50px;
+}
+.list .title-list{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.list .company{
+    font-family: Kalam;
+    font-size: 18px;
+    margin-top: -10px;
+}
+@media only screen and (max-width: 639px){
+    .Resume-screen{
+        padding: 0 15px 0 0px;
+    }
+    .resume-top{
+        font-size: 34px;
+        letter-spacing: 2px;
+        margin-top: 18px;
+    }
+    .resume-mid .title, .resume-bot .title{
+        font-size: 22px;
+    }
+    .resume-mid .title img, .resume-bot .title img{
+        height: 36px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .date img{
+        width: 170px;
+        margin-left: -10px;
+    }
+    .date p{
+        margin-left: -125px;
+        font-size: 13px;
+    }
+    .list .title-list{
+        font-size: 20px;
+    }
+    .list .company{
+        margin-top: -7px;
+        font-size: 15px;
+    }
+    .list .description{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 767px){
+    .Resume-screen{
+        padding: 0 25px 0 0px;
+    }
+    .resume-top{
+        font-size: 34px;
+        letter-spacing: 3px;
+        margin-top: 18px;
+    }
+    .resume-mid .title, .resume-bot .title{
+        font-size: 23px;
+    }
+    .resume-mid .title img, .resume-bot .title img{
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .date img{
+        width: 175px;
+        margin-left: -10px;
+    }
+    .date p{
+        margin-left: -130px;
+        font-size: 13.5px;
+    }
+    .list .title-list{
+        font-size: 21px;
+    }
+    .list .company{
+        margin-top: -7px;
+        font-size: 15px;
+    }
+    .list .description{
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .Resume-screen{
+        padding: 0 80px 0 80px;
+    }
+    .resume-top{
+        font-size: 36px;
+        letter-spacing: 3px;
+        margin-top: 18px;
+    }
+    .resume-mid .title, .resume-bot .title{
+        font-size: 23px;
+    }
+    .date img{
+        width: 180px;
+    }
+    .date p{
+        margin-left: -130px;
+        font-size: 14px;
+    }
+    .list .title-list{
+        font-size: 23px;
+    }
+    .list .company{
+        margin-top: -7px;
+        font-size: 17px;
+    }
+    .list .description{
+        font-size: 14.5px;
+    }
+}
+@media only screen and (min-width: 1024px ) and (max-width: 1280px){
+    .Resume-screen{
+        padding: 0 160px 0 160px;
+    }
+    .resume-top{
+        font-size: 38px;
+        letter-spacing: 3px;
+        margin-top: 18px;
+    }
+    .list .description{
+        font-size: 15px;
+    }
+}

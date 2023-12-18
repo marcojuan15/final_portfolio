@@ -1,0 +1,386 @@
+.AboutMe-screen{
+    background-color: #D1D4C9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial;
+    padding: 0 200px 0 200px;
+}
+
+.about-me-top{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    top: 0;
+}
+.about-me-top .title{
+    font-family: Anton;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    color: #152A38;
+    text-shadow: 2px 2px 1px #ffffff;
+}
+.about-me-top .title-intro{
+    font-family: Playball;
+    font-size: 35px;
+    color: #183D3D;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 1px #93B1A6;
+}
+
+.about-me-top .title, .about-me-top .title-intro, .about-me-description .profile-pic{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic img{
+    height: 120px;
+    border-radius: 60px;
+}
+.about-me-description{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.about-me-description .intro{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 23px;
+    text-align: justify;
+    background-color: #9fcdbd;
+    padding: 7px;
+    border-radius: 3px;
+}
+.about-me-mid{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    position: relative;
+    margin-bottom: -10px;
+    padding-top: 10px;
+}
+.about-me-mid .mid, .about-me-bot .bot{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.mid .profile, .mid .skill, .bot .title{
+    font-family: Lilita One;
+    font-size: 25px;
+    color: #152A38;
+}
+.mid .profile, .mid .skill, .bot .title, .mid .skill-list div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid .profile-intro, .mid .skill-list{
+    flex: 4;
+}
+.mid .profile-intro{
+    text-align: center;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #d37663;
+    margin-bottom: 50px;
+    padding: 6px;
+    border-radius: 3px;
+}
+.mid .skill-list{
+    display: flex;
+    flex-direction: row;
+}
+.skill-list{
+    font-family: Bebas Neue;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.skill-list div{
+    flex-direction: column;
+}
+.skill-list img{
+    height: 100px;
+    margin-bottom: 5px;
+}
+.about-me-bot{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    position: relative;
+}
+.bot .bot-details{
+    flex: 1;
+}
+.bot .funfact-list{
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+}
+.bot-details .bot-title{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.bot-details .bot-ans{
+    font-size: 17px;
+    margin-left: 20px;
+}
+.bot .funfact-list img{
+    height: 100px;
+    flex: 1;
+    margin-bottom: 5px;
+}
+.bot .funfact-list .list, .bot .funfact-list .list2{
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9fcdbd;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+.bot .funfact-list .list2{
+    background-color: #d37663;
+}
+.bot .funfact-list .list2 .text, .funfact-list .list .text{
+    flex: 2;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px;
+    text-align: justify;
+}
+@media only screen and (max-width: 639px){
+    .AboutMe-screen{
+        padding: 0 15px 0 15px;
+    }
+    .about-me-top .title{
+        font-size: 32px;
+        letter-spacing: 1px;
+        margin-top: 18px;
+    }
+    .about-me-top .title-intro{
+        font-size: 30px;
+    }
+    .about-me-description .intro{
+        font-size: 9.5px;
+        line-height: 12px;
+        margin-left: 5px;
+    }
+    .profile-pic img{
+        height: 85px;
+        border-radius: 55px;
+    }
+    .mid .profile, .mid .skill, .bot .title{
+        font-size: 20px;
+    }
+    .mid .profile-intro{
+        margin-top: 12px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .skill-list{
+        font-size: 12.5px;
+    }
+    .skill-list div{
+        margin-top: -25px;
+    }
+    .skill-list img{
+        height: 90px;
+    }
+    .bot-details .bot-title{
+        font-size: 15px;
+    }
+    .bot-details .bot-ans{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .bot .funfact-list img{
+        height: 80px;
+    }
+    .bot .funfact-list .list, .bot .funfact-list .list2{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 15px;
+    }
+    .bot .funfact-list .list2 .text, .funfact-list .list .text{
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 767px){
+    .AboutMe-screen{
+        padding: 0 25px 0 25px;
+    }
+    .about-me-top .title{
+        font-size: 34px;
+        letter-spacing: 2px;
+        margin-top: 18px;
+    }
+    .about-me-top .title-intro{
+        font-size: 32px;
+    }
+    .about-me-description .intro{
+        font-size: 13.5px;
+        line-height: 17px;
+        margin-left: 10px;
+    }
+    .profile-pic img{
+        height: 110px;
+        border-radius: 55px;
+    }
+    .mid .profile, .mid .skill, .bot .title{
+        font-size: 23px;
+    }
+    .mid .profile-intro{
+        margin-top: 12px;
+        font-size: 13.5px;
+        line-height: 16px;
+    }
+    .skill-list{
+        font-size: 15.3px;
+    }
+    .skill-list div{
+        margin-top: -15px;
+    }
+    .skill-list img{
+        height: 90px;
+    }
+    .bot-details .bot-title{
+        font-size: 17px;
+    }
+    .bot-details .bot-ans{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .bot .funfact-list img{
+        height: 80px;
+    }
+    .bot .funfact-list .list, .bot .funfact-list .list2{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .bot .funfact-list .list2 .text, .funfact-list .list .text{
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .AboutMe-screen{
+        padding: 0 90px 0 90px;
+    }
+    .about-me-top .title{
+        font-size: 36px;
+        letter-spacing: 2px;
+        margin-top: 18px;
+    }
+    .about-me-top .title-intro{
+        font-size: 32px;
+    }
+    .about-me-description .intro{
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+    .profile-pic img{
+        height: 110px;
+        border-radius: 55px;
+    }
+    .mid .profile, .mid .skill, .bot .title{
+        font-size: 23px;
+    }
+    .mid .profile-intro{
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .skill-list{
+        font-size: 18px;
+    }
+    .skill-list div{
+        margin-top: -15px;
+    }
+    .skill-list img{
+        height: 95px;
+    }
+    .bot-details .bot-title{
+        font-size: 18px;
+    }
+    .bot-details .bot-ans{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .bot .funfact-list img{
+        height: 90px;
+    }
+    .bot .funfact-list .list, .bot .funfact-list .list2{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .bot .funfact-list .list2 .text, .funfact-list .list .text{
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+@media only screen and (min-width: 1024px ) and (max-width: 1280px){
+    .AboutMe-screen{
+        padding: 0 160px 0 160px;
+    }
+    .about-me-top .title{
+        font-size: 38px;
+        letter-spacing: 3px;
+        margin-top: 18px;
+    }
+    .about-me-top .title-intro{
+        font-size: 33px;
+    }
+    
+    .about-me-description .intro{
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+    .profile-pic img{
+        height: 110px;
+        border-radius: 55px;
+    }
+    .mid .profile, .mid .skill, .bot .title{
+        font-size: 23px;
+    }
+    .mid .profile-intro{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .skill-list img{
+        height: 95px;
+    }
+    .bot-details .bot-title{
+        font-size: 19px;
+    }
+    .bot-details .bot-ans{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .bot .funfact-list img{
+        height: 90px;
+    }
+    .bot .funfact-list .list2 .text, .funfact-list .list .text{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    
+}
+
+

@@ -1,0 +1,222 @@
+.Contact-screen{
+    background-color: #040D12;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px 50px 150px;
+}
+.contact-top{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Anton;
+    font-size: 40px;
+    color: #246f6f;
+    text-shadow: 1px 1px 1px #93B1A6;
+    letter-spacing: 3px;
+}
+.contact-mid1{
+    flex: 2;
+    font-family: Playball;
+    font-size: 40px;
+    color: #93B1A6;
+    text-shadow: 1px 1px 1px #1d5555;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.contact-mid2{
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+.contact-mid2 .list{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-mid2 .list img{
+    height: 100px;
+}
+.contact-mid2 .list .list-img{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+.contact-mid2 .list .list-text{
+    flex: 1;
+    font-family: Bebas Neue;
+    font-size: 35px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+    color: #93B1A6;
+    text-shadow: 1px 1px 1px #1d5555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-mid2 .list .list-dets{
+    flex: 1;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #1d5555;
+    text-align: center;
+    color: #93B1A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact-bot{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.contact-bot div{
+    flex: 2;
+    text-align: center;
+    color: #93B1A6;
+    font-size: 70px;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+}
+.contact-bot img{
+    height: 75px;
+}
+.contact-bot a{
+    flex: 1;
+}
+@media only screen and (max-width: 639px){
+    .Contact-screen{
+        padding: 0 15px 40px 15px;
+    }
+    .contact-top{
+        font-size: 36px;
+    }
+    .contact-mid1{
+        font-size: 24.5px;
+        margin-top: 26px;
+        letter-spacing: 0.5px;
+    }
+    .contact-mid2 .list{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .contact-mid2 .list img{
+        height: 80px;
+    }
+    .contact-mid2 .list .list-dets{
+        font-size: 10px;
+        padding: 1px 10px 1px 10px;
+    }
+    .contact-bot div{
+        font-size: 52px;
+    }
+    .contact-bot img{
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 767px){
+    .Contact-screen{
+        padding: 0 20px 40px 20px;
+    }
+    .contact-top{
+        font-size: 40px;
+    }
+    .contact-mid1{
+        font-size: 28px;
+        margin-top: 26px;
+        letter-spacing: 1px;
+    }
+    .contact-mid2 .list{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .contact-mid2 .list img{
+        height: 85px;
+    }
+    .contact-mid2 .list .list-dets{
+        font-size: 12.5px;
+        padding: 1px 5px 1px 5px;
+    }
+    .contact-bot div{
+        font-size: 60px;
+    }
+    .contact-bot img{
+        height: 67px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .Contact-screen{
+        padding: 0 60px 40px 60px;
+    }
+    .contact-top{
+        font-size: 40px;
+    }
+    .contact-mid1{
+        font-size: 34px;
+        margin-top: 26px;
+        letter-spacing: 1.5px;
+    }
+    .contact-mid2 .list{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .contact-mid2 .list img{
+        height: 90px;
+    }
+    .contact-mid2 .list .list-dets{
+        font-size: 15px;
+        padding: 3px 10px 3px 10px;
+    }
+    .contact-bot div{
+        font-size: 65px;
+    }
+    .contact-bot img{
+        height: 70px;
+    }
+}
+@media only screen and (min-width: 1024px ) and (max-width: 1280px){
+    .Contact-screen{
+        padding: 0 110px 50px 110px;
+    }
+    .contact-top{
+        font-size: 40px;
+    }
+    .contact-mid1{
+        font-size: 39px;
+        margin-top: 26px;
+        letter-spacing: 1.5px;
+    }
+    .contact-mid2 .list{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .contact-mid2 .list img{
+        height: 95px;
+    }
+    .contact-mid2 .list .list-dets{
+        font-size: 16.5px;
+        padding: 5px 15px 5px 15px;
+    }
+    .contact-bot div{
+        font-size: 67px;
+    }
+    .contact-bot img{
+        height: 73px;
+    }
+}
